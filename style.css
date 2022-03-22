@@ -1,0 +1,139 @@
+/* ---- NOTE element selectors ---- */
+
+body
+{
+    margin: 0px;
+    min-height: 100vh;
+}
+
+header
+{
+    margin: 0px;
+    margin-bottom: 1.5em;
+    width: 100vw;
+
+    background-color: darkblue;
+    color: whitesmoke;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+main
+{
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+main section
+{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+footer
+{
+    margin-bottom: 0px;
+    height: 100px;
+    width: 100vw;
+    background-color: darkblue;
+}
+
+h1
+{
+    margin: 0px;
+    text-align: center;
+}
+
+h3
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* ---- NOTE class selectors ---- */
+
+.article
+{
+    flex-grow: 3;
+    text-align: center;
+    max-width: 50%;
+    padding-left: 3em;
+    padding-right: 3em;
+
+}
+
+.article .article-banner
+{
+    background-color: lightblue;
+    min-height: 2em;
+    margin-bottom: 0.25em;
+}
+
+.article p
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    
+    font-size: large;
+}
+
+.related-article-section
+{
+    margin-top: 4em;
+    flex-grow: 0;
+    width: 20%;
+}
+
+.related-article
+{
+    width: 75%;
+    padding-bottom: 1.5em;
+    border-bottom: 3px rgb(128, 128, 128) solid;
+    margin-bottom: 0.75em;
+
+    align-items: center;
+}
+
+.image-placeholder
+{
+    background-color: royalblue;
+    color: white;
+    width: 100%;
+    height: 100px;
+    
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+}
+
+.image-placeholder span
+{
+    vertical-align: middle;
+}
+
+.related-article-text
+{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+/* ---- NOTE utility classes ---- */
+
+.d-flex
+{
+    display: flex;
+}
+
+.d-flex.justify-content-center
+{
+    justify-content: center;
+}
+
+.d-flex.column
+{
+    flex-direction: column;
+}
